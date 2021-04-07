@@ -1,4 +1,6 @@
-<!-- # 确保脚本抛出遇到的错误
+
+```
+# 确保脚本抛出遇到的错误
 set -e
 
 cd _site
@@ -24,4 +26,6 @@ cd -
 git remote set-url origin repo.git //修改远程仓库地址
 git push origin :branch-name //删除远程分支
 git reset --hard origin/master  //指令把HEAD指向master最新版本
-git pull //强行合并 -->
+git pull //强行合并
+
+```
