@@ -26,5 +26,5 @@ jobs:
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./_test
       with:
-      username: "hoochanlon"
-      useremail: "hoochanlon@outlook.com"
+        username: "hoochanlon"
+        useremail: "hoochanlon@outlook.com"
