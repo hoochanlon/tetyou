@@ -1,3 +1,4 @@
+## 写作基础——git
 
 ```
 # 确保脚本抛出遇到的错误
@@ -29,3 +30,6 @@ git reset --hard origin/master  //指令把HEAD指向master最新版本
 git pull //强行合并
 
 ```
+
+## 备份基础——docker
+
