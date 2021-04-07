@@ -20,10 +20,10 @@ jobs:
     - name: Run tests
       run: bundle exec jekyll build
     - name: Simple deploy with git
-        uses: rdarida/simple-github-pages-deploy-action@v1
-        with: # optional
-          git-user: 'hoochanlon'
-          git-email: 'hoochanlon@outlook.com'
-          git-base-folder: '_test'
-          commit-message: 'qwer'
-          branch: 'gh-pages'
+      uses: rdarida/simple-github-pages-deploy-action@v1
+      with: # optional
+        git-user: 'hoochanlon'
+        git-email: 'hoochanlon@outlook.com'
+        git-base-folder: '_test'
+        commit-message: 'qwer'
+        branch: 'gh-pages'
