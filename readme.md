@@ -1,4 +1,4 @@
-笔记风格：Markdown Agenda. Excel Xmind
+笔记风格：Markdown Agenda. Excel Xmind ｜ 备忘录：子弹笔记（手写）
 
 ```
 ##git
