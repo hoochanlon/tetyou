@@ -1,8 +1,13 @@
 ### 笔记风格
 
-**电子版** Markdown Agenda. Excel Xmind 
+**电子版** 
 
-**纸质版** 康奈尔笔记+子弹笔记，额外的摘抄本
+* Markdown Agenda. Excel Xmind 
+
+**纸质版** 
+
+* 康奈尔笔记+子弹笔记
+* 额外的摘抄本+便签
 
 ### 备忘录风格
 
