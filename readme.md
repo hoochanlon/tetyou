@@ -2,9 +2,12 @@
 
 **电子版** 
 
-* Markdown Agenda. Excel Xmind 
+* Markdown Agenda. Excel Xmind draw.io
 
-<s>excel</s> 记简单的填鸭式教科书的历史还行，对于思辨、批判类不适用。正想法子改进。
+excel 记简单的填鸭式教科书的历史还行，对于思辨、批判类不适用。正想法子改进。
+
+draw.io 试用中
+
 
 **纸质版** 
 
