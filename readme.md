@@ -4,7 +4,7 @@
 
 * Markdown Agenda. Excel Xmind draw.io
 
-excel 记简单的填鸭式教科书的历史还行，对于思辨、批判类不适用。正想法子改进。
+传统的表格分栏 table；记简单的填鸭式教科书的历史还行，对于思辨、批判类不适用。
 
 flow + 康奈尔笔记
 
