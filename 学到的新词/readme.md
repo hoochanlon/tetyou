@@ -8,6 +8,6 @@
 
 亟欲：急切的，非常希望
 
-付之阙如：指欠缺本应具有之物
+付之阙如：指欠缺本应具有之物，有些不了了之的味道
 
 https://m.edu.iask.sina.com.cn/bdjx/6j7XppShXcA.html
