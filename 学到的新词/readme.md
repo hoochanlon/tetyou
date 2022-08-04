@@ -6,7 +6,7 @@
 
 斡旋： 扭转僵局的调解 
 
-亟欲：非常希望
+亟欲：急切的，非常希望
 
 
 https://m.edu.iask.sina.com.cn/bdjx/6j7XppShXcA.html
