@@ -10,4 +10,6 @@
 
 付之阙如：指欠缺本应具有之物，有些不了了之的味道
 
+言不尽意： 话不能表达全部的思想内容，想说未全部写下来。
+
 https://m.edu.iask.sina.com.cn/bdjx/6j7XppShXcA.html
