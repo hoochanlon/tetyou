@@ -21,6 +21,7 @@ echo "alias sign='sudo xattr -d com.apple.quarantine'" >> ~/.zshrc
 指令别名与文件软链接
 
 ```
+# 指令别名与文件软链接
 sudo /usr/local/bin ln -s  ~/Public/nigate.sh nigate.shortcut && echo "alias nigate='bash nigate.shortcut'" >> ~/.zshrc
 # 文件类型需要用到软链接，不能用别名，别名只适用于命令
 # 别名只能生效于本机已存在的文件，curl 那么就用不了了
