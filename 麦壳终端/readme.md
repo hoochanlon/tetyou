@@ -36,6 +36,12 @@ curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/P
 # 参考：curl，https://baijiahao.baidu.com/s?id=1714333474878440110&wfr=spider&for=pc
 ```
 
+查看系统版本信息
+
+```
+brew install neofetch && neofetch
+```
+
 
 ---
 
