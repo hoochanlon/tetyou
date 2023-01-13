@@ -42,6 +42,12 @@ curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/P
 brew install neofetch && neofetch
 ```
 
+查看磁盘空间
+
+```
+brew install duf && duf --all
+```
+
 
 ---
 
