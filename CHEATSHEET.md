@@ -40,10 +40,6 @@ mas search bear
 mas install 1091189122
 ```
 
-允许任何来源
-
-
-
 #### 截图
 
 更改默认前缀
@@ -140,7 +136,7 @@ curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/P
   * -S(--show-error) — 指定只输出错误信息，通常与 -s 一起使用。
   * -s(--silent) — 不显示错误和进度信息。
 
-参考：[curl -fsSL](https://blog.csdn.net/weixin_46267040/article/details/125370144)，顺便提一嘴无关紧要的[终端小游戏](http://www.nndssk.com/xtwt/1479093c5Wg3.html)
+参考：[csdn-curl -fsSL](https://blog.csdn.net/weixin_46267040/article/details/125370144)，顺便提一嘴无关紧要的[终端小游戏](http://www.nndssk.com/xtwt/1479093c5Wg3.html)
 
 ```
 /bin/bash -c "$(curl -fsSL https://cdn.statically.io/gh/hoochanlon/Free-NTFS-for-Mac/main/nigate.sh)"
@@ -153,7 +149,7 @@ curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/P
 * 文件类型需要用到软链接，不能用别名，别名只适用于命令
 * 别名只能生效于本机已存在的文件，curl 那么就用不了了
 
-参考：[创建mac软件快捷启动方式 软连接方式ln -s](https://blog.csdn.net/guokaigdg/article/details/89457317) 
+参考：[csdn-创建mac软件快捷启动方式 软连接方式ln -s](https://blog.csdn.net/guokaigdg/article/details/89457317) 
 
 ```
 sudo /usr/local/bin ln -s  \
@@ -162,6 +158,8 @@ sudo /usr/local/bin ln -s  \
 ```
 
 #### 生成 ssh key 并复制密钥内容
+
+参考：[码农家园-为什么要在ssh-keygen中使用`-t rsa -b 4096`？](https://www.codenong.com/51834225/)
 
 ```
 ssh-keygen -t rsa -b 4096 -C \
