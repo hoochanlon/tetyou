@@ -139,13 +139,12 @@ curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/P
   * -L(--location) — 参数会让 HTTP 请求跟随服务器的重定向。
   * -S(--show-error) — 指定只输出错误信息，通常与 -s 一起使用。
   * -s(--silent) — 不显示错误和进度信息。
-* 参考：https://blog.csdn.net/weixin_46267040/article/details/125370144
+
+参考：[curl -fsSL](https://blog.csdn.net/weixin_46267040/article/details/125370144)，顺便提一嘴无关紧要的[终端小游戏](http://www.nndssk.com/xtwt/1479093c5Wg3.html)
 
 ```
 /bin/bash -c "$(curl -fsSL https://cdn.statically.io/gh/hoochanlon/Free-NTFS-for-Mac/main/nigate.sh)"
 ```
-
-提一嘴无关紧要的[终端小游戏](http://www.nndssk.com/xtwt/1479093c5Wg3.html)
 
 #### 指令别名与文件软链接
 
@@ -153,7 +152,7 @@ curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/P
 
 * 文件类型需要用到软链接，不能用别名，别名只适用于命令
 * 别名只能生效于本机已存在的文件，curl 那么就用不了了
-* macOS创建软链接： https://blog.csdn.net/guokaigdg/article/details/89457317
+* macOS创建软链接：[创建mac软件快捷启动方式 软连接方式ln -s](https://blog.csdn.net/guokaigdg/article/details/89457317) 
 
 ```
 sudo /usr/local/bin ln -s  \
