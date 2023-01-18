@@ -152,7 +152,8 @@ curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/P
 
 * 文件类型需要用到软链接，不能用别名，别名只适用于命令
 * 别名只能生效于本机已存在的文件，curl 那么就用不了了
-* macOS创建软链接：[创建mac软件快捷启动方式 软连接方式ln -s](https://blog.csdn.net/guokaigdg/article/details/89457317) 
+
+参考：[创建mac软件快捷启动方式 软连接方式ln -s](https://blog.csdn.net/guokaigdg/article/details/89457317) 
 
 ```
 sudo /usr/local/bin ln -s  \
