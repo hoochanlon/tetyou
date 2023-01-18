@@ -122,7 +122,7 @@ ls -al
 
 #### 下载文件内容写入到某个位置
 
-参考：https://baijiahao.baidu.com/s?id=1714333474878440110
+参考：[入门小站-linux之curl使用技巧](https://baijiahao.baidu.com/s?id=1714333474878440110)
 
 ```
 curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/Public/nigate.sh
