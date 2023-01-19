@@ -74,6 +74,13 @@ uptime
 ```
 brew install neofetch && neofetch
 ```
+
+#### 替换搜索工具find与安装目录切换工具
+
+```
+brew install fd  && brew install z
+```
+
 #### 原生查看系统信息并简化
 
 * 将指令参数等重命名为`systeminfo`，简化命令字母单词
