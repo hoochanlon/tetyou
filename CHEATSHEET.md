@@ -60,6 +60,14 @@ defaults write com.apple.screencapture name "catch"
 defaults write com.apple.screencapture type jpg
 ```
 
+#### 复制当前路径
+
+参考：[Linux 系统中“|”管道的作用是什么](https://zhidao.baidu.com/question/548984916.html)
+
+```
+pwd｜pbcopy
+
+```
 
 #### 查看系统启动时间及信息
 
