@@ -32,6 +32,12 @@ echo "alias sign='sudo xattr -d com.apple.quarantine'" >> ~/.zshrc
 sudo spctl --master-disable
 ```
 
+#### 把文件扔进垃圾桶
+
+```
+trash /Users/chanlonhoo/未命名文件夹
+```
+
 #### App Store下载出问题用终端的应用商店mas
 
 ```
