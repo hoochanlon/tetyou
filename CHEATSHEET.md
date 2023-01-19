@@ -2,6 +2,23 @@
 
 `sudo -S`之后的操作可不用输密码；终端挂载不休眠`caffeinate`，以及安装` neofetch` 可查看系统资料。`tldr`比`man`更好用！
 
+### 云服务器初体验
+
+连接主机，之后输入主机密码，即可。
+
+``` 
+ssh root@公网IP
+```
+
+设置主机名
+
+```
+# 设置主机名
+hostnamectl set-hostname xiaohong
+# 正常设置主机名需要重启，执行bash刷新
+bash
+````
+
 ### vim日常操作
 
 ---
