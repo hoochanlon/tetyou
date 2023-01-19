@@ -1,6 +1,6 @@
 ## 指令速记即用（Mac）
 
-`sudo -S`之后的操作可不用输密码；终端挂载不休眠`caffeinate`，以及安装` neofetch` 可查看系统资料。
+`sudo -S`之后的操作可不用输密码；终端挂载不休眠`caffeinate`，以及安装` neofetch` 可查看系统资料。`tldr`比`man`更好用！
 
 ### vim日常操作
 
@@ -60,14 +60,25 @@ defaults write com.apple.screencapture name "catch"
 defaults write com.apple.screencapture type jpg
 ```
 
-#### 复制当前路径
+#### 复制路径
 
-参考：[Linux 系统中“|”管道的作用是什么](https://zhidao.baidu.com/question/548984916.html)
+复制当前路径
 
 ```
 pwd｜pbcopy
 
 ```
+参考：[Linux 系统中“|”管道的作用是什么](https://zhidao.baidu.com/question/548984916.html)
+
+把长串目录临时设置变量
+
+```
+# 设置变量，并进入改变量目录
+workdir='/filer/home/xiaoming'|cd $workdir
+# 写入文件永久执行
+echo "export workdir='/filer/home/xiaoming'" >> ~/.bash_profile
+```
+改写：[百度知道-linux 把长路径名赋值给变量](https://zhidao.baidu.com/question/2206329112263835988.html)
 
 #### 查看系统启动时间及信息
 
