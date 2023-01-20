@@ -33,7 +33,7 @@ echo "alias sign='sudo xattr -d com.apple.quarantine'" >> ~/.zshrc
 sudo spctl --master-disable
 ```
 
-#### 修复程序启动bug
+#### 修复程序启动以及打开方式重复的bug
 
 ```
 /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
