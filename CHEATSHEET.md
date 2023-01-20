@@ -1,23 +1,7 @@
 ## 指令速记即用（Mac）
 
-`sudo -S`之后的操作可不用输密码；终端挂载不休眠`caffeinate`，以及安装` neofetch` 可查看系统资料。`tldr`比`man`更好用！
+`sudo -S`之后的操作可不用输密码；终端挂载不休眠`caffeinate`，以及安装` neofetch` 可查看系统资料。`tldr`比`man`更好用。
 
-### 云服务器初体验
-
-连接主机，之后输入主机密码，即可。
-
-``` 
-ssh root@公网IP
-```
-
-设置主机名
-
-```
-# 设置主机名
-hostnamectl set-hostname xiaohong
-# 正常设置主机名需要重启，执行bash刷新
-bash
-````
 
 ### vim日常操作
 
@@ -206,7 +190,9 @@ sudo /usr/local/bin ln -s  \
 && echo "alias nigate='bash nigate.shortcut'" >> ~/.zshrc
 ```
 
-#### 生成 ssh key 并复制密钥内容
+## git使用ssh
+
+生成 ssh key 并复制密钥内容
 
 参考：[码农家园-为什么要在ssh-keygen中使用`-t rsa -b 4096`？](https://www.codenong.com/51834225/)
 
@@ -217,8 +203,38 @@ ssh-keygen -t rsa -b 4096 -C \
 
 ```
 
-#### 测试链接
+测试链接
 
 ```
 ssh -T git@gitlab.com
 ```
+
+## 云服务器初体验
+
+连接主机，之后输入主机密码，即可。
+
+``` 
+ssh root@公网IP
+```
+
+设置主机名
+
+```
+# 设置主机名
+hostnamectl set-hostname xiaohong
+# 正常设置主机名需要重启，执行bash刷新
+bash
+````
+
+现象：由于ssh的加密性质，电脑重装之后，远程输入密码就登陆不上了。
+
+解决办法：电脑设置一次VNC，此时需要删除ssh的hnown_hosts。
+
+```
+rm -rf ~/.ssh/known_hosts && rm -rf ~/.ssh/known_hosts.old
+```
+
+* 操作系统加固：https://help.aliyun.com/knowledge_list/60787.html
+* web应用加固：https://help.aliyun.com/knowledge_list/60792.html
+
+
