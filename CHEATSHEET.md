@@ -36,7 +36,9 @@ sudo spctl --master-disable
 #### 修复程序启动bug，多余项；正常打开Safari插件，有报错
 
 ```
-/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
+/System/Library/Frameworks/CoreServices.framework/Frameworks \
+/LaunchServices.framework/Support/ \
+lsregister -kill -r -domain local -domain system -domain user
 ```
 
 #### 把文件扔进垃圾桶
