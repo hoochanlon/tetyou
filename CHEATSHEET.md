@@ -116,6 +116,14 @@ brew install fd  && brew install z
 echo "alias systeminfo='system_profiler SPSoftwareDataType SPHardwareDataType'" >> ~/.zshrc
 ```
 
+#### brew查看安装过的东西
+
+其中cask是增强包
+
+```
+brew list
+```
+
 #### git使用ssh
 
 生成 ssh key 并复制密钥内容
